@@ -12,12 +12,14 @@ Hoje em dia o Método ágil Scrum, é um proceso usado mundialmente em desenvolv
 A metáfora 'Scrum' vem do Rugby, um esporte coletivo de intenso contato físico originário da Inglaterra.
 Nesse esporte, a força coletiva, do time é o ponto mais importante.
 ```
+
 ### O que é o Scrum - A metáfora Scrum
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rugby_union_scrummage.jpg/1280px-Rugby_union_scrummage.jpg)
 ```
 O Scrum ou "formação ordenada" (ou ainda "peleja") é uma situação frequente no rugby. Geralmente, é usado após uma jogada irregular ou em alguma penalização. Os 8 Avançados das duas equipes formam uns contra os outros. O scrum-half (médio-formação) da equipe que não cometeu a infração insere a bola no meio do "túnel" formado pelas duas primeiras linhas de cada equipe com a finalidade de que os jogadores da sua equipe consigam ganhar (talonar) a bola.
 A metáfora do rugby não acaba aí depois que o time recupera a bola ele deve correr rapidamente para marcar alguns pontos, essa corrida rápida é o Sprint que é um conceito muito importante no framework, o Sprint está relacionado ao principal time-boxes que mais a frente será mais detalhado, mais que por hora são conceitos relacionados ao gerenciamento do tempo do framework para entregar de forma iterativa e incremental mais valor ao processo.
 ```
+
 ### O Conceito de time do Scrum
 ```
 O conceito de time é muito importante no Scrum tanto product owner, scrum master e equipe desenvolvimento formam um único time igualmente responsável pelo sucesso ou fracasso do projeto.
@@ -28,33 +30,25 @@ O conceito de time é muito importante no Scrum tanto product owner, scrum maste
 Uma caixa rígida de tempo, uma vez definido tempo da sprint esse tempo então é fixo, até pelo menos o fim da sprint.
 Sprint é a caixa de tempo básica, o tempo para agregar valor para o cliente.Que pode ser de até 1 mês.(Scrum Guide)
 ```
-
 ```
 O tamanho da Sprint varia de acordo com vários critérios por exemplo, inicío do projeto(Sprint curto), times novos que desconhecem a tecnologia(sprint longo).Equipes maduras de desenvolvimento(Sprint curto)
 ```
-
 ```
 O tamanho da Sprint não pode ser alterado durante a Sprint, no entanto após a parte de retrospectiva que veremos mais adiante podemos mudar o tamanho da sprint.
 ```
 
-
-
 ## :rugby_football: Review meeting
-
 ```
 Reunião entre o cliente e time de desenvolvimento para mostrar o que foi feito durante o sprint.
 Review meeting também é um time box que não pode passar de 2,5% do tamanho da Sprint. 
 Reunião mega importante onde o time e o cliente se conhecem.Uma boa reunião para conhecer as pessoas envolvidas no projeto. Uma interação que permite ter feedback mais rápido, para errar menos no futuro.
 ```
-
 ```
 Sugestão de Review meeting - A reunião começa com os itens prontos que foram feitos na sprint para mostrar para ao cliente. Ao invés de mostrar em Apresentações maçantes seria interessante deixar o cliente usar a funcionalidade entregue, sem contar pra ele como ela funciona.
 ```
-
 ```
 Pode ser que o cliente goste do que foi feito, ou que ele diga que não era aquilo que ele queria, mantenha a tranquilidade, anote e volte para o product backlog para ser repriorizado para próxima sprint.
 ```
-
 ```
 Após a reunião discutimos se a sprint foi bem ou mal sucedida.
 ```
@@ -69,9 +63,21 @@ Geralmente ficam expostos de forma visual para o time em um quadro kanban, deve 
 ```
 
 ## :rugby_football: Retrospective
-
 ```
-
+A retrospectiva, é a reunião mais importante, onde se lava roupa suja pra começar mais limpo possível na proxíma sprint, uma reunião de melhoria contínua, 5% do tempo da sprint.
+Retrospectiva é uma reunião onde o time conversa.
+Pesquise sobre Prime directive.
+Aprender com os erros para melhorar continuamente o processo.
+Principal visa instigar uma mentalidade positiva, assegurando ao grupo que a retrospectiva será conduzida abertamente, com confiança, sem julgamento e sem atribuir culpa.
+```
+```
+Sugestão:
+Faça um brainstorming com a equipe analisando e agrupando os assuntos apurados na reunião, pontos positivos e negativos, os pontos negativos agrupados de mesmo tópico devem ser discutidos primeiro.
+Definir quais ações serão feitas para reduzir esses pontos negativos.
+Deixar visível essas ações durante toda a proxima sprint.
+```
+```
+O resultado de uma retrospectiva é uma lista, preferencialmente curta, de ações que serão tomadas durante o próximo Sprint para melhorar ainda mais o time e o andamento do projeto.
 ```
 
 ## :rugby_football: Daily Scrum
@@ -84,13 +90,10 @@ Se alguém souber como ajudar, apenas indica que sabe e após o fim do Daily os 
 ```
 
 #### Quando fazer a Daily Scrum
-
 ```
 Sempre no mesmo horário e no mesmo lugar.
 Evitar horários muito cedo ou muito tarde.
 ```
-
-
 
 ## :rugby_football: Planning Meeting
 ```
@@ -106,11 +109,34 @@ Não é nesse momento que se define quem vai fazer o quê e sim na Daily Meeting
 E sim verificar qual é o principal valor de negócio que poderá ser entregue na sprint.
 ```
 
-
 ## :rugby_football: Product Backlog, Sprint Backlog e suas partes
-
+```
+Podemos fazer qualquer formato para esses itens, desde que na visão de negócios, ou seja na visão do usuário, a sugestão é de que seja feito na forma de histórias, o que são histórias?
+São escritas de uma forma bem específica, um título, um porquê, para quê e o pedido em si.
 ```
 
+Template:
+*Para* motivar meu time a bater a meta de vendas
+*Como* Camila gerente comercial
+*Quero* que toque uma música quando atingir a meta de vendas do dia.
+
+```
+A História é apresentada no planning, subitens de histórias são tarefas.(tasks)
+```
+
+Task 1 - Selecão das músicas
+
+Task 2 - Um programa que monitora a meta e toca a música.
+
+```
+Product backlog é uma lista ordenada e priorizada das histórias(itens de negócio) que pretendemos fazer até o final do projeto.
+Product backlog é cuidado pelo Pelo Product Owner.
+Os itens mais prioritários são então refinados, se tornando mais fáceis de estimar.
+O processo de quebrar histórias em histórias menores que tenham ainda valor para o usuário se chama grooming, ou refinamento.
+Os itens mais pra baixo não precisam ainda estar refinados.
+```
+```
+Sprint backlog não contem só histórias mas também tarefas, gerenciado pelo time inteiro. 
 ```
 
 ## :rugby_football: Scrum Master
@@ -130,6 +156,7 @@ Impedimento é quando parte do time, ou o time inteiro, tentou resolver o proble
 ```
 Um bom Scrum master transforma impedimentos em problemas, que o próprio time possa resolver.
 ```
+
 #### O dia-a-dia de um Scrum Master
 Durante o andamento do projeto que usa Scrum, o Scrum Master deve:
 - Facilitar as reuniões, quando necessário;
@@ -139,7 +166,7 @@ Durante o andamento do projeto que usa Scrum, o Scrum Master deve:
 - Buscar continuamente ferramentas para ajudar o time a evoluir.
 - E no que pode estar impedindo o time de melhorar sua performance.
 
-## Problemas e Impedimentos
+#### Problemas e Impedimentos
 ``
 Há uma enorme confusão em implantações do Scrum pelo mundo sobre o que é um problema e o que é um impedimento. O mau entendimento da diferença entre eles faz com que diversos Scrum Masters se comportem mais como babás de times do que deveriam - e isso também prejudica a evolução do time.
 ``
@@ -155,8 +182,8 @@ O time deve trabalhar junto para resolver esses problemas.
 
 > Você, Scrum Master, evite acostumar mal o time: isso pode tirar o senso de responsabilidade das pessoas e você pode acabar se tornando uma muleta.
 
-
 ## :rugby_football: Product Owner
+
 ```
 Faz parte do time, representante do cliente, ouve as opniões do cliente e prioriza as funcionalidades.
 Mantém o product backlog atualizado.
@@ -167,7 +194,7 @@ Evita telefone sem fio com o cliente.
 Deve ser uma pessoa só.
 ```
 
-### O dia-a-dia de um Product Owner
+#### O dia-a-dia de um Product Owner
 
 Durante o andamento do projeto que usa Scrum, o Product Owner (P.O.) deve:
 
@@ -180,6 +207,8 @@ Durante o andamento do projeto que usa Scrum, o Product Owner (P.O.) deve:
     - remover itens desatualizados;
     - revisar a priorização do backlog constantemente;
     - refinar histórias mais importantes em preparação para o próximo Planning.
+
+
 
 ## :rugby_football: Desenvolvedores
 
@@ -194,21 +223,34 @@ Não existe uma pessoa que distribui as tarefas.
 O time é responsável pelo trabalho que faz.
 ```
 
-### Desenvolvedores **devem**:
+#### Desenvolvedores **devem**:
 - Decidir a abordagem técnica para os problemas apresentados;
 - Trocar informações e ajudar os companheiros de time;
 - **Estimar as histórias** durante o planning;
 - **Escolher sua próxima tarefa** a ser feita, considerando as prioridades da Sprint;
 - Buscar a qualidade do projeto e a redução de erros.
 
-### E desenvolvedores **não** devem:
+#### E desenvolvedores **não** devem:
 
 - Considerar dúvidas técnicas como impedimentos - elas são apenas problemas;
 - Esperar que alguém decida as atividades a serem feitas por eles;
 - Se recusar a aprender um pouco sobre outras áreas de desenvolvimento.
 
+
 ## :rugby_football: O time todo
 
 ```
-
+Melhoria contínua 
+Scrum Master e P.O não podem ser a mesma pessoa.
+Tem coisas que o time todo DEVE fazer.
+Exemplos:
+Contratação de um novo membro pro time
+Fazer o processo andar.
+Fazer as ações das retrospectivas andarem.
+Melhoria do projeto
+Melhoria do processo.
+Resolver os problemas de desenvolvimento.
+Apresentar pro cliente.
+Participar das reuniões.
+Melhoria de comunicação.
 ```
