@@ -61,10 +61,11 @@ Após a reunião discutimos se a sprint foi bem ou mal sucedida.
 
 ### Definição de pronto
 ```
-A definição de pronto deve ser uma visão uniforme para o time scrum é uma sequência de passos desde que um item está como 'a fazer', até eles está realmente pronto. Geralmente significa que as funcionalidades forma desenvolvidas, testadas e talvez homologado pelo cliente. 
+A definição de pronto deve ser uma visão uniforme para o time scrum é uma sequência de passos desde que um item está como 'a fazer', até eles está realmente pronto. Geralmente significa que as funcionalidades foram desenvolvidas, testadas e talvez homologado pelo cliente. 
 ```
 ```
-Se meu critério de pronto é muito grande eu não conseguirei fazer em uma sprint pequena.Geralmente fica exposto de forma visual para o time em um quadro kanban, deve ser completo e resumido o suficiente para caber dentro da sprint definida.
+Se meu critério de pronto é muito grande eu não conseguirei fazer em uma sprint pequena. 
+Geralmente ficam expostos de forma visual para o time em um quadro kanban, deve ser completo e resumido o suficiente para caber dentro da sprint definida.
 ```
 
 ## :rugby_football: Retrospective
@@ -92,7 +93,6 @@ Evitar horários muito cedo ou muito tarde.
 
 
 ## :rugby_football: Planning Meeting
-
 ```
 Reunião de planejamento, limitada a 5% do tamanho da sprint 
 Quem participa ? 
@@ -100,19 +100,11 @@ R: O Time inteiro, (scrum master) visando a facilitação, o p.o (Product ownver
 ```
 
 #### Mecânica de reunião
-
 ```
 O P.O apresenta lista priorizada na visão de negócios.
 Não é nesse momento que se define quem vai fazer o quê e sim na Daily Meeting
 E sim verificar qual é o principal valor de negócio que poderá ser entregue na sprint.
 ```
-
-
-
-
-
-
-
 
 
 ## :rugby_football: Product Backlog, Sprint Backlog e suas partes
@@ -123,7 +115,9 @@ E sim verificar qual é o principal valor de negócio que poderá ser entregue n
 
 ## :rugby_football: Scrum Master
 ```
-É o facilitador do processo, busca manter o foco da equipe no projeto, nas reuniões, explicando sobre o Scrum e tornando o processo coeso, até mesmo com o cliente. É um líder servidor. Resolve impedimentos.
+É o facilitador do processo, busca manter o foco da equipe no projeto, nas reuniões, explicando sobre o Scrum e tornando o processo coeso, até mesmo com o cliente.
+É um líder servidor.
+Resolve impedimentos.
 ```
 ```
 Impedimentos são diferentes de problemas, problemas são responsabilidades do time resolver, são problemas:
@@ -131,14 +125,13 @@ Impedimentos são diferentes de problemas, problemas são responsabilidades do t
 * Ar condicionado muito frio
 * Meu cliente sumiu
 * Algo está me atrapalhado
-Impedimento é quando parte do time, ou o time inteiro, tentou resolver o problema, e  não conseguiu. 
+Impedimento é quando parte do time, ou o time inteiro, tentou resolver o problema, e não conseguiu. 
 ```
 ```
-Um bom Scrum master transforma impedimentos em problemas
+Um bom Scrum master transforma impedimentos em problemas, que o próprio time possa resolver.
 ```
 #### O dia-a-dia de um Scrum Master
 Durante o andamento do projeto que usa Scrum, o Scrum Master deve:
-
 - Facilitar as reuniões, quando necessário;
 - Atentar para o cumprimento dos time-boxes e explicar o porquê deles;
 - Educar desenvolvedores, product owner e clientes sobre o processo;
@@ -156,7 +149,8 @@ Tudo o que atrapalha o time, interno ou externo, é considerado um **problema** 
 ``
 Se o time tentou resolver o problema **e não conseguiu**, isso pode ser considerado um Impedimento.
 ``
-Assim, lembre-se que Scrum Master não é a pessoa que vai resolver problemas técnicos (ele nem precisa ser técnico!) ou cotidianos ("Acabou o café!"). O time deve trabalhar junto para resolver esses problemas. 
+Assim, lembre-se que Scrum Master não é a pessoa que vai resolver problemas técnicos (ele nem precisa ser técnico!) ou cotidianos ("Acabou o café!").
+O time deve trabalhar junto para resolver esses problemas. 
 ``
 
 > Você, Scrum Master, evite acostumar mal o time: isso pode tirar o senso de responsabilidade das pessoas e você pode acabar se tornando uma muleta.
@@ -190,17 +184,17 @@ Durante o andamento do projeto que usa Scrum, o Product Owner (P.O.) deve:
 ## :rugby_football: Desenvolvedores
 
 ```
-O grupo de desenvolvimento do projeto, ajuda o projeta a andar pra frente, analistas, programadores, arquitetos, dba, tester, design, entre outros.
+O grupo de desenvolvimento do projeto, ajuda o projetar, a andar pra frente, analistas, programadores, arquitetos, dba, tester, design, entre outros.
 Este é o primeiro aspecto que diferencia o Scrum de outros desenvolvimentos de projeto: ninguém deve chegar e falar para o desenvolvedor qual deve ser seu trabalho.
 Inclusive é muito comum que o Scrum Master e o P.O podem exercer também esses papéis.(part-time)
 O grupo de desenvolvimento fazem a estimativa do esforço para realização das histórias.
 Negociam com o P.O quais tarefas serão realizadas no sprint.
 Decidem quem faz o quê.
-Não existe uma pessoa que distribui as tarefas.O time é responsável pelo trabalho que faz
+Não existe uma pessoa que distribui as tarefas.
+O time é responsável pelo trabalho que faz.
 ```
 
 ### Desenvolvedores **devem**:
-
 - Decidir a abordagem técnica para os problemas apresentados;
 - Trocar informações e ajudar os companheiros de time;
 - **Estimar as histórias** durante o planning;
