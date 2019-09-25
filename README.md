@@ -254,3 +254,6 @@ Apresentar pro cliente.
 Participar das reuniões.
 Melhoria de comunicação.
 ```
+
+##### Certificado
+https://cursos.alura.com.br/user/maisongalvao/course/agile-scrum/formalCertificate
